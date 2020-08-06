@@ -96,9 +96,9 @@ $ 退出容器然后重启：docker-compose restart
 进入phabricator容器
 
 ```bash
-docker exec -ti docker_phabricator_1 bash
-cd /opt/bitnami/phabricator/src/extensions
-curl -O https://raw.githubusercontent.com/arielyang/phabricator_zh_Hans/master/dist/PhabricatorSimplifiedChineseTranslation.php
+$ docker exec -ti docker_phabricator_1 bash
+$ cd /opt/bitnami/phabricator/src/extensions
+$ curl -O https://raw.githubusercontent.com/arielyang/phabricator_zh_Hans/master/dist/PhabricatorSimplifiedChineseTranslation.php
 ```
 
 语言页面设置：[http://localhost/settings/user/user/page/language/saved](http://localhost/settings/user/user/page/language/saved)
@@ -106,4 +106,86 @@ curl -O https://raw.githubusercontent.com/arielyang/phabricator_zh_Hans/master/d
 选择Chinese\(Simplified\)保存即可
 
 ## 邮件配置
+
+登录phabricator容器
+
+```bash
+$ docker exec -ti docker_phabricator_1 bash
+```
+
+配置发送来源
+
+```bash
+$ bin/config set metamta.default-address admin@example.com
+```
+
+#### 配置smtp
+
+创建mailers.json文件
+
+```bash
+cat <<EOF > mailers.json
+> [
+>   {
+>     "key": "stmp-mailer",
+>     "type": "smtp",
+>     "options": {
+>       "host": "smtp.exmail.qq.com",
+>       "port": 465,
+>       "user": "admin@example.com",
+>       "password": "abc123",
+>       "protocol": "ssl"
+>     }
+>   }
+> ]
+> EOF
+```
+
+导入配置
+
+```bash
+$ config set cluster.mailers --stdin < mailers.json
+```
+
+发送邮件测试
+
+```bash
+$ bin/mail send-test --to lake@example.com --subject hello < mailers.json
+Reading message body from stdin...
+Mail sent! You can view details by running this command:
+
+    phabricator/ $ ./bin/mail show-outbound --id 27
+```
+
+#### https设置
+
+登录容器（同上）
+
+设置允许使用https
+
+```bash
+$ config set security.require-https true
+```
+
+nginx转发配置
+
+```bash
+server {
+    listen       443 ssl;
+    server_name  pha.example.com;
+    ssl_certificate /etc/nginx/conf.d/ssl/example.com.pem;
+    ssl_certificate_key /etc/nginx/conf.d/ssl/example.com.key;
+
+    location / {
+        proxy_pass https://pha.example.com:8002;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+}
+server {
+    listen 80;
+    server_name pha.example.com;
+    rewrite ^(.*)$ https://$host$1 permanent;
+}
+```
 
