@@ -6,7 +6,7 @@ description: '现在比较出名的跨平台可视化界面有两款，web上的
 
 ## RedisDesktop
 
-![](../../../.gitbook/assets/image%20%2826%29.png)
+![](../../../.gitbook/assets/image%20%2828%29.png)
 
 源码方式安装
 

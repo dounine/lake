@@ -31,7 +31,7 @@ Enter your token from the browser:  b0c9ba1f91dd232xxxxxxxxxxxxxxxxx
 Successfully logged-in. Your session file was written to /Users/huanghuanlai/.code-push.config. You can run the code-push logout command at any time to delete this file and terminate your session.
 ```
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](../../../.gitbook/assets/image%20%2823%29.png)
 
 在`code-push`添加一个ios的app
 
@@ -120,7 +120,7 @@ react-native run-ios
 
 ### IOS发布
 
-![&#x8C03;&#x8BD5;](../../../.gitbook/assets/image%20%2812%29.png)
+![&#x8C03;&#x8BD5;](../../../.gitbook/assets/image%20%2814%29.png)
 
 发布一个ios新版本
 
@@ -150,7 +150,7 @@ Successfully released an update containing the "/var/folders/m_/xcdff0xd62j4l2xb
 
 重新Load刷新应用
 
-![](../../../.gitbook/assets/image%20%2817%29.png)
+![](../../../.gitbook/assets/image%20%2819%29.png)
 
 ### 安卓发布
 
@@ -176,5 +176,5 @@ code-push release-react dounineApp-android android
 
 刷新应用
 
-![](../../../.gitbook/assets/image%20%286%29.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 

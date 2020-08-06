@@ -7,7 +7,7 @@ description: >-
 
 版本
 
-![](../../../.gitbook/assets/image%20%288%29.png)
+![](../../../.gitbook/assets/image%20%289%29.png)
 
 HDP里面已经默认支持spark动态资源释配置
 

@@ -12,7 +12,7 @@ description: >-
 
 插件安装
 
-![](../../../.gitbook/assets/image%20%289%29.png)
+![](../../../.gitbook/assets/image%20%2810%29.png)
 
 g4语法文件使用的是sparkSQL的 [SqlBase.g4](https://github.com/apache/spark/blob/v2.3.1/sql/catalyst/src/main/antlr4/org/apache/spark/sql/catalyst/parser/SqlBase.g4) 文件进行改造的 [ArcSql.g4 ](https://raw.githubusercontent.com/dounine/arc/370dc33ff42cca73e2a01ee2156b5627ba086d95/src/main/resources/ArcSQL.g4)
 
@@ -22,11 +22,11 @@ g4语法文件使用的是sparkSQL的 [SqlBase.g4](https://github.com/apache/spa
 
 测试SQL语法树
 
-![](../../../.gitbook/assets/image%20%2813%29.png)
+![](../../../.gitbook/assets/image%20%2815%29.png)
 
 生成解析配置
 
-![](../../../.gitbook/assets/image%20%2820%29.png)
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 
 
