@@ -93,7 +93,7 @@ Running ios postlink script
 Running android postlink script
 ```
 
-{% embed url="https://在react-native的App.js文件添加自动更新代码" %}
+在`react-native`的`App.js`文件添加自动更新代码
 
 ```javascript
 import codePush from "react-native-code-push";
