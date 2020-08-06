@@ -3,7 +3,7 @@ description: >-
   要导入大量数据，Hbase的BulkLoad是必不可少的，在导入历史数据的时候，我们一般会选择使用BulkLoad方式，我们还可以借助Spark的计算能力将数据快速地导入。
 ---
 
-# BulkLoad用法
+# BulkLoad 用法
 
 添加依赖包
 
