@@ -19,6 +19,7 @@
   * [Flutter 语言](kai-fa/development/flutter-yu-yan/README.md)
     * [振动反馈](kai-fa/development/flutter-yu-yan/zhen-dong-fan-kui.md)
   * [Java 语言](kai-fa/development/java-yu-yan/README.md)
+    * [VisualVM安装plugins Visual GC](kai-fa/development/java-yu-yan/visualvm-an-zhuang-plugins-visual-gc.md)
     * [定位导致CPU飙升的问题过程](kai-fa/development/java-yu-yan/ding-wei-dao-zhi-cpu-biao-sheng-de-wen-ti-guo-cheng.md)
     * [JMX远程调优](kai-fa/development/java-yu-yan/jmx-yuan-cheng-tiao-you.md)
     * [递归列所有文件](kai-fa/development/java-yu-yan/di-gui-lie-suo-you-wen-jian.md)
