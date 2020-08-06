@@ -3,7 +3,7 @@ description: >-
   此文使用当前最新版本的`RN`与`Code-Push`进行演示，其中的参数不会过多进行详细解释，更多参数解释可参考其它文章，这里只保证APP能正常进行热更新操作，方便快速入门
 ---
 
-# RN热更新
+# RN 热更新
 
 创建`React-Native`项目
 
@@ -31,7 +31,7 @@ Enter your token from the browser:  b0c9ba1f91dd232xxxxxxxxxxxxxxxxx
 Successfully logged-in. Your session file was written to /Users/huanghuanlai/.code-push.config. You can run the code-push logout command at any time to delete this file and terminate your session.
 ```
 
-![](../../../.gitbook/assets/image%20%2813%29.png)
+![](../../../.gitbook/assets/image%20%2816%29.png)
 
 在`code-push`添加一个ios的app
 
@@ -120,7 +120,7 @@ react-native run-ios
 
 ### IOS发布
 
-![&#x8C03;&#x8BD5;](../../../.gitbook/assets/image%20%287%29.png)
+![&#x8C03;&#x8BD5;](../../../.gitbook/assets/image%20%289%29.png)
 
 发布一个ios新版本
 
@@ -150,7 +150,7 @@ Successfully released an update containing the "/var/folders/m_/xcdff0xd62j4l2xb
 
 重新Load刷新应用
 
-![](../../../.gitbook/assets/image%20%2810%29.png)
+![](../../../.gitbook/assets/image%20%2813%29.png)
 
 ### 安卓发布
 
@@ -176,5 +176,5 @@ code-push release-react dounineApp-android android
 
 刷新应用
 
-![](../../../.gitbook/assets/image%20%283%29.png)
+![](../../../.gitbook/assets/image%20%285%29.png)
 

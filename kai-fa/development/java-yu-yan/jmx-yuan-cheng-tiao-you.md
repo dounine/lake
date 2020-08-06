@@ -2,7 +2,7 @@
 description: '可采用两种方式进行连接，`jmx`与`jstatd`,此文演示如何配置`jmx`进行连接调优'
 ---
 
-# JMX远程调优
+# JMX 远程调优
 
 ## 非认证连接
 
@@ -59,11 +59,11 @@ jconsole
 
 ### jvisualvm
 
-![&#x6253;&#x5F00;&#x8F6F;&#x4EF6;](../../../.gitbook/assets/image%20%282%29.png)
+![&#x6253;&#x5F00;&#x8F6F;&#x4EF6;](../../../.gitbook/assets/image%20%284%29.png)
 
-![&#x6DFB;&#x52A0;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x5730;&#x626F;](../../../.gitbook/assets/image%20%286%29.png)
+![&#x6DFB;&#x52A0;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x5730;&#x626F;](../../../.gitbook/assets/image%20%288%29.png)
 
-![&#x6388;&#x6743;&#x914D;&#x7F6E;](../../../.gitbook/assets/image.png)
+![&#x6388;&#x6743;&#x914D;&#x7F6E;](../../../.gitbook/assets/image%20%281%29.png)
 
-![&#x6210;&#x529F;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%2811%29.png)
+![&#x6210;&#x529F;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%2814%29.png)
 
