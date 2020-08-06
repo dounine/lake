@@ -90,6 +90,19 @@ $ 退出容器然后重启：docker-compose restart
 | 名称 | 描述 | 默认值 |
 | :--- | :--- | :--- |
 | PHABRICATOR\_HOST | 主机名 | **127.0.0.1** |
+| PHABRICATOR\_USERNAME | 应用程序的用户名 | user |
+| PHABRICATOR\_PASSWORD | 应用程序密码 | bitnami1 |
+| PHABRICATOR\_EMAIL | 应用程序电子邮件 | user@example.com |
+| PHABRICATOR\_FIRSTNAME | 用户的名字 | FirstName |
+| PHABRICATOR\_LASTNAME | 用户的姓氏 | LastName |
+| PHABRICATOR\_ALTERNATE\_FILE\_DOMAIN | 文件域 |  |
+| PHABRICATOR\_USE\_LFS | 将Phabricator配置为使用Git LFS | no |
+| PHABRICATOR\_SSH\_PORT\_NUMBER | SSH服务器端口 | 22 |
+| PHABRICATOR\_ENABLE\_GIT\_SSH\_REPOSITORY | 使用SSH身份验证配置自托管的GIT存储库 | no |
+| MARIADB\_USER | MariaDB数据库的根用户 | root |
+| MARIADB\_PASSWORD | MariaDB的根密码 |  |
+| MARIADB\_HOST | MariaDB服务器的主机名 | mariadb |
+| MARIADB\_PORT\_NUMBER | MariaDB服务器使用的端口 | 3306 |
 
 ## 中文汉化
 
