@@ -19,7 +19,7 @@ description: >-
 
 Table配置
 
-```text
+```scala
 import java.sql.Timestamp
 import java.time.LocalDateTime
 
