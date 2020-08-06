@@ -13,6 +13,7 @@
   * [Flutter 语言](kai-fa/development/flutter-yu-yan/README.md)
     * [振动反馈](kai-fa/development/flutter-yu-yan/zhen-dong-fan-kui.md)
   * [Java 语言](kai-fa/development/java-yu-yan/README.md)
+    * [JMX远程调优](kai-fa/development/java-yu-yan/jmx-yuan-cheng-tiao-you.md)
     * [递归列所有文件](kai-fa/development/java-yu-yan/di-gui-lie-suo-you-wen-jian.md)
   * [Scala 语言](kai-fa/development/scala/README.md)
     * [case class动态复制](kai-fa/development/scala/case-class-dong-tai-fu-zhi.md)
