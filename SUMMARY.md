@@ -4,10 +4,9 @@
 
 ## 开发
 
+* [编程](kai-fa/untitled-1/README.md)
+  * [Scala](kai-fa/untitled-1/scala/README.md)
+    * [Slick LocalDateTime与Timestamp转换](kai-fa/untitled-1/scala/slick-localdatetime-yu-timestamp-zhuan-huan.md)
 * [工具](kai-fa/untitled/README.md)
   * [Bazel - 编译加速](kai-fa/untitled/bazel-jia-su.md)
-
----
-
-* [Untitled](untitled-1.md)
 
