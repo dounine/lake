@@ -10,7 +10,7 @@ description: >-
 在用户目录创建一个文件 `~/.bazelrc` 内容如下
 
 ```
-$ build --disk_cache=/path/cache
+build --disk_cache=/path/cache
 ```
 
 {% hint style="info" %}
@@ -22,7 +22,7 @@ $ build --disk_cache=/path/cache
 需要依赖`docker`环境
 
 ```text
-$ docker run -d -v /path/cache:/data -p 9090:8080 -p 9092:9092 --name bazel-remote-cache buchgr/bazel-remote-cache
+docker run -d -v /path/cache:/data -p 9090:8080 -p 9092:9092 --name bazel-remote-cache buchgr/bazel-remote-cache
 ```
 
 在用户目录创建一个文件 `~/.bazelrc` 内容如下

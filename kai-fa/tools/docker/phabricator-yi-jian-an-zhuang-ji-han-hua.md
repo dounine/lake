@@ -9,7 +9,7 @@ description: 本文介绍Phabricator使用Docker方式的安装及配置
 下载docker-compose.yml配置文件
 
 ```text
-$ curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-phabricator/master/docker-compose.yml > docker-compose.yml
+curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-phabricator/master/docker-compose.yml > docker-compose.yml
 ```
 
 修改docker-compose.yml
@@ -66,7 +66,7 @@ my\_vhost.conf文件
 在docker-compose.yml文件目录前启动
 
 ```yaml
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 {% hint style="info" %}
@@ -109,9 +109,9 @@ $ 退出容器然后重启：docker-compose restart
 进入phabricator容器
 
 ```bash
-$ docker exec -ti docker_phabricator_1 bash
-$ cd /opt/bitnami/phabricator/src/extensions
-$ curl -O https://raw.githubusercontent.com/arielyang/phabricator_zh_Hans/master/dist/PhabricatorSimplifiedChineseTranslation.php
+docker exec -ti docker_phabricator_1 bash
+cd /opt/bitnami/phabricator/src/extensions
+curl -O https://raw.githubusercontent.com/arielyang/phabricator_zh_Hans/master/dist/PhabricatorSimplifiedChineseTranslation.php
 ```
 
 语言页面设置：[http://localhost/settings/user/user/page/language/saved](http://localhost/settings/user/user/page/language/saved)
@@ -123,13 +123,13 @@ $ curl -O https://raw.githubusercontent.com/arielyang/phabricator_zh_Hans/master
 登录phabricator容器
 
 ```bash
-$ docker exec -ti docker_phabricator_1 bash
+docker exec -ti docker_phabricator_1 bash
 ```
 
 配置发送来源
 
 ```bash
-$ bin/config set metamta.default-address admin@example.com
+bin/config set metamta.default-address admin@example.com
 ```
 
 ### 配置smtp
@@ -157,13 +157,13 @@ cat <<EOF > mailers.json
 导入配置
 
 ```bash
-$ config set cluster.mailers --stdin < mailers.json
+config set cluster.mailers --stdin < mailers.json
 ```
 
 发送邮件测试
 
 ```bash
-$ bin/mail send-test --to lake@example.com --subject hello < mailers.json
+bin/mail send-test --to lake@example.com --subject hello < mailers.json
 Reading message body from stdin...
 Mail sent! You can view details by running this command:
 
@@ -177,7 +177,7 @@ Mail sent! You can view details by running this command:
 设置允许使用https
 
 ```bash
-$ config set security.require-https true
+config set security.require-https true
 ```
 
 nginx转发配置

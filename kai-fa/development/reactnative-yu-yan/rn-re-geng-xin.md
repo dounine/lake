@@ -8,13 +8,13 @@ description: >-
 创建`React-Native`项目
 
 ```bash
-$ react-native init dounineApp
+react-native init dounineApp
 ```
 
 安装`code-push-cli`
 
 ```bash
-$ npm install -g code-push-cli
+npm install -g code-push-cli
 ```
 
 注册`code-push`帐号
@@ -66,9 +66,9 @@ Successfully added the "dounineApp-android" app, along with the following defaul
 在项目根目录添加`react-native-code-push`
 
 ```bash
-$ npm install react-native-code-push --save
+npm install react-native-code-push --save
 #或者
-$ yarn add react-native-code-push
+yarn add react-native-code-push
 ```
 
 链接
@@ -165,13 +165,13 @@ deploymentKey:'T0NshYi9X8nRkIe_cIRZGbAut90a6dec4087-57cf-4c9d-b0dc-ad38ce431e1d'
 运行
 
 ```javascript
-$ react-native run-android
+react-native run-android
 ```
 
 发布
 
 ```javascript
-$ code-push release-react dounineApp-android android
+code-push release-react dounineApp-android android
 ```
 
 刷新应用

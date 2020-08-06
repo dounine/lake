@@ -8,18 +8,18 @@ description: >-
 随意登录hdfs集群中的某一台机子、然后切换到hdfs用户
 
 ```text
-$ su - hdfs
+su - hdfs
 ```
 
 kerberos 认证\[可选\]
 
 ```text
-$ kinit -kt /etc/security/keytabs/hdfs.headless.keytab hdfs-demo
+kinit -kt /etc/security/keytabs/hdfs.headless.keytab hdfs-demo
 ```
 
 平衡命令
 
 ```text
-$ hdfs balancer -threshold 5
+hdfs balancer -threshold 5
 ```
 

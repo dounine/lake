@@ -121,6 +121,6 @@ class ExportCsv extends Configured with Tool {
 运行任务
 
 ```scala
-$ hadoop jar ExportCsv.jar
+hadoop jar ExportCsv.jar
 ```
 
