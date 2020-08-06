@@ -5,6 +5,8 @@
 ## 开发
 
 * [大数据](kai-fa/da-shu-ju/README.md)
+  * [Spark](kai-fa/da-shu-ju/spark/README.md)
+    * [Spark 资源动态释放](kai-fa/da-shu-ju/spark/spark-zi-yuan-dong-tai-shi-fang.md)
   * [Dl4j](kai-fa/da-shu-ju/dl4j/README.md)
     * [CSV数据转换](kai-fa/da-shu-ju/dl4j/csv-shu-ju-zhuan-huan.md)
   * [Phoenix](kai-fa/da-shu-ju/phoenix.md)
@@ -51,6 +53,7 @@
     * [Webhook 部署自动化](kai-fa/tools/git/webhook-bu-shu-zi-dong-hua.md)
     * [清理Gitlab项目节省空间](kai-fa/tools/git/qing-li-gitlab-xiang-mu-jie-sheng-kong-jian.md)
   * [Linux](kai-fa/tools/linux/README.md)
+    * [Pssh 一键管理](kai-fa/tools/linux/pssh-yi-jian-guan-li.md)
     * [Clustershell 一键管理](kai-fa/tools/linux/clustershell-yi-jian-guan-li.md)
     * [Centos7 添加开机启动服务](kai-fa/tools/linux/centos7-tian-jia-kai-ji-qi-dong-fu-wu.md)
     * [多线程压缩日志](kai-fa/tools/linux/duo-xian-cheng-ya-suo-ri-zhi.md)

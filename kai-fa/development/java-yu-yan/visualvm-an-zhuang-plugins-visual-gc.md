@@ -24,7 +24,7 @@ cd $JAVA_HOME/bin
 
 菜单窗口Plugins
 
-![](../../../.gitbook/assets/image%20%2812%29.png)
+![](../../../.gitbook/assets/image%20%2813%29.png)
 
 添加插件地扯
 

@@ -8,7 +8,7 @@ description: >-
 
 版本选择
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 ## 环境
 
@@ -22,25 +22,25 @@ description: >-
 
 hostname 设置
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../.gitbook/assets/image%20%2837%29.png)
 
 主机免密钥登录
 
 
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](../../../.gitbook/assets/image%20%2825%29.png)
 
 同步hosts
 
-![](../../../.gitbook/assets/image%20%2810%29.png)
+![](../../../.gitbook/assets/image%20%2811%29.png)
 
 下载 [jdk1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-![](../../../.gitbook/assets/image%20%2838%29.png)
+![](../../../.gitbook/assets/image%20%2839%29.png)
 
 配置Java环境
 
-![](../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
 环境变量生效
 
@@ -50,35 +50,35 @@ source /etc/profile
 
 两台主机创建好hadoop的文件夹
 
-![](../../../.gitbook/assets/image%20%2822%29.png)
+![](../../../.gitbook/assets/image%20%2823%29.png)
 
 环境配置 [hadoop-3.2.0.tar.gz](https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.2.0/hadoop-3.2.0.tar.gz)
 
-![](../../../.gitbook/assets/image%20%2828%29.png)
+![](../../../.gitbook/assets/image%20%2829%29.png)
 
 ### 参数配置
 
 运行用户操作，添加如下几句到 `/soft/hadoop/etc/hadoop/hadoop-env.sh` 文件
 
-![](../../../.gitbook/assets/image%20%2817%29.png)
+![](../../../.gitbook/assets/image%20%2818%29.png)
 
 ### hadoop 配置文件
 
 core-site.xml 配置
 
-![](../../../.gitbook/assets/image%20%2820%29.png)
+![](../../../.gitbook/assets/image%20%2821%29.png)
 
 hdfs-site.xml 配置
 
-![](../../../.gitbook/assets/image%20%2819%29.png)
+![](../../../.gitbook/assets/image%20%2820%29.png)
 
 yarn-site.xml 配置
 
-![](../../../.gitbook/assets/image%20%2829%29.png)
+![](../../../.gitbook/assets/image%20%2830%29.png)
 
 mapred-site.xml 配置
 
-![](../../../.gitbook/assets/image%20%2839%29.png)
+![](../../../.gitbook/assets/image%20%2840%29.png)
 
 格式化name文件夹
 
@@ -92,7 +92,7 @@ hadoop namenode -format
 start-all.sh
 ```
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2831%29.png)
 
 访问 [http://m1.example.com:8088/cluster](http://m1.example.com:8088/cluster)
 

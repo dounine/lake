@@ -184,9 +184,9 @@ gradle publish
 
 登录 [NEXUS仓库](https://oss.sonatype.org/#stagingRepositories) 找到自己上传的项目，点击close
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 
 等待close状态全部通过即可发布Release版本
 
-![](../../../.gitbook/assets/image%20%2833%29.png)
+![](../../../.gitbook/assets/image%20%2834%29.png)
 
