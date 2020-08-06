@@ -9,11 +9,8 @@
     * [Slick LocalDateTime互转Timestamp](kai-fa/development/scala/slick-localdatetime-yu-timestamp-zhuan-huan.md)
 * [工具篇](kai-fa/tools/README.md)
   * [Docker](kai-fa/tools/docker/README.md)
+    * [Phabricator 一键安装及汉化](kai-fa/tools/docker/phabricator-yi-jian-an-zhuang-ji-han-hua.md)
     * [docker-compose 安装](kai-fa/tools/docker/dockercompose-an-zhuang.md)
   * [Bazel](kai-fa/tools/bazel/README.md)
     * [Bazel - 编译加速](kai-fa/tools/bazel/bazel-jia-su.md)
-
----
-
-* [Phabricator 一键安装及汉化](phabricator-yi-jian-an-zhuang-ji-han-hua.md)
 
