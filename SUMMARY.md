@@ -6,6 +6,7 @@
 
 * [大数据](kai-fa/da-shu-ju/README.md)
   * [Hbase](kai-fa/da-shu-ju/hbase/README.md)
+    * [BulkLoad用法](kai-fa/da-shu-ju/hbase/bulkload-yong-fa.md)
     * [迁移数据](kai-fa/da-shu-ju/hbase/qian-yi-shu-ju.md)
     * [自定义Rowkey规则](kai-fa/da-shu-ju/hbase/zi-ding-yi-rowkey-gui-ze.md)
     * [导出CSV数据](kai-fa/da-shu-ju/hbase/dao-chu-csv-shu-ju.md)
