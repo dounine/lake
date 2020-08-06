@@ -24,7 +24,7 @@ cd $JAVA_HOME/bin
 
 菜单窗口Plugins
 
-![](../../../.gitbook/assets/image%20%2813%29.png)
+![](../../../.gitbook/assets/image%20%2816%29.png)
 
 添加插件地扯
 
@@ -38,11 +38,11 @@ cd $JAVA_HOME/bin
 
 这时`Available Plugins`就能显示出插件的列表了 我们勾选后进行安装即可
 
-![](../../../.gitbook/assets/image%20%286%29.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 
 双击我们程序的PID
 
-![](../../../.gitbook/assets/image%20%282%29.png)
+![](../../../.gitbook/assets/image%20%283%29.png)
 
 
 

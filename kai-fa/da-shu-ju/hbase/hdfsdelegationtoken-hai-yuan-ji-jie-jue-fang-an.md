@@ -8,7 +8,7 @@ description: >-
 
 版本
 
-![](../../../.gitbook/assets/image%20%2819%29.png)
+![](../../../.gitbook/assets/image%20%2823%29.png)
 
 ## 配置
 
