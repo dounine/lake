@@ -2,5 +2,5 @@
 description: scala语言中的日常精髓
 ---
 
-# Scala
+# Scala 语言
 
