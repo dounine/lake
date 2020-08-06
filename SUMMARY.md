@@ -1,6 +1,6 @@
 # Table of contents
 
-* [太乙飞猪介绍](README.md)
+* [作者介绍](README.md)
 
 ## 开发
 
@@ -10,6 +10,8 @@
   * [HDFS](kai-fa/da-shu-ju/hdfs/README.md)
     * [磁盘重新平衡](kai-fa/da-shu-ju/hdfs/ci-pan-zhong-xin-ping-heng.md)
 * [编程篇](kai-fa/development/README.md)
+  * [ReactNative 语言](kai-fa/development/reactnative-yu-yan/README.md)
+    * [RN热更新](kai-fa/development/reactnative-yu-yan/rn-re-geng-xin.md)
   * [Flutter 语言](kai-fa/development/flutter-yu-yan/README.md)
     * [振动反馈](kai-fa/development/flutter-yu-yan/zhen-dong-fan-kui.md)
   * [Java 语言](kai-fa/development/java-yu-yan/README.md)
