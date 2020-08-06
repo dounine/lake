@@ -1,6 +1,6 @@
 # Table of contents
 
-* [作者介绍](README.md)
+* [太乙飞猪介绍](README.md)
 
 ## 开发
 
