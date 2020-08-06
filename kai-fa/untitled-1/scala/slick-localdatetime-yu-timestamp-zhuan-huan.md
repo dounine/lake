@@ -3,7 +3,7 @@ description: >-
   在使用Slick操作数据库的时候、如果使用LocalDateTime类型字段、则在数据库中使用的是varchar类型、但是我们需要使用更严格的时间类型Timestamp。这就需要在这两个类型之间来回切换了。
 ---
 
-# Slick LocalDateTime与Timestamp转换
+# Slick LocalDateTime互转Timestamp
 
 ## 使用方法
 
