@@ -4,6 +4,9 @@
 
 ## 开发
 
+* [大数据](kai-fa/da-shu-ju/README.md)
+  * [HDFS](kai-fa/da-shu-ju/hdfs/README.md)
+    * [磁盘重新平衡](kai-fa/da-shu-ju/hdfs/ci-pan-zhong-xin-ping-heng.md)
 * [编程篇](kai-fa/development/README.md)
   * [Scala 语言](kai-fa/development/scala/README.md)
     * [Slick LocalDateTime互转Timestamp](kai-fa/development/scala/slick-localdatetime-yu-timestamp-zhuan-huan.md)
