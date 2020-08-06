@@ -54,6 +54,8 @@
     * [case class动态复制](kai-fa/development/scala/case-class-dong-tai-fu-zhi.md)
     * [Slick LocalDateTime互转Timestamp](kai-fa/development/scala/slick-localdatetime-yu-timestamp-zhuan-huan.md)
 * [工具篇](kai-fa/tools/README.md)
+  * [Others](kai-fa/tools/others/README.md)
+    * [Redis 可视化界面工具](kai-fa/tools/others/redis-ke-shi-hua-jie-mian-gong-ju.md)
   * [Git](kai-fa/tools/git/README.md)
     * [Webhook 部署自动化](kai-fa/tools/git/webhook-bu-shu-zi-dong-hua.md)
     * [清理Gitlab项目节省空间](kai-fa/tools/git/qing-li-gitlab-xiang-mu-jie-sheng-kong-jian.md)
