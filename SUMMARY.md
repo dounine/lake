@@ -58,6 +58,8 @@
     * [Webhook 部署自动化](kai-fa/tools/git/webhook-bu-shu-zi-dong-hua.md)
     * [清理Gitlab项目节省空间](kai-fa/tools/git/qing-li-gitlab-xiang-mu-jie-sheng-kong-jian.md)
   * [Linux](kai-fa/tools/linux/README.md)
+    * [Fedora 安装Chrome浏览器](kai-fa/tools/linux/fedora-an-zhuang-chrome-liu-lan-qi.md)
+    * [Nginx 简单配置同时支持微信小程序https/wss协议](kai-fa/tools/linux/nginx-jian-dan-pei-zhi-tong-shi-zhi-chi-wei-xin-xiao-cheng-xu-httpswss-xie-yi.md)
     * [Pssh 一键管理](kai-fa/tools/linux/pssh-yi-jian-guan-li.md)
     * [Clustershell 一键管理](kai-fa/tools/linux/clustershell-yi-jian-guan-li.md)
     * [Centos7 添加开机启动服务](kai-fa/tools/linux/centos7-tian-jia-kai-ji-qi-dong-fu-wu.md)
