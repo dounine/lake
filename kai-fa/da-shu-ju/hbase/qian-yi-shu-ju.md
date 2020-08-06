@@ -25,7 +25,16 @@ hbase org.apache.hadoop.hbase.mapreduce.Export \
 logTable hdfs:///tmp/hbase-export/logTable
 ```
 
+删除表
 
+```bash
+disable 'logTable'
+drop 'logTable'
+```
+
+创建表
+
+> 数据3天过期，可以根据`RegionServer`的个数做预分区，假设有8台，则使用下面的方式。 由于我们是使用`MD5("uid")`前两位作为打散,范围为`00~ff` 256个分片,可以使用如下方式。
 
 
 
