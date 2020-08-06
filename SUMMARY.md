@@ -5,6 +5,8 @@
 ## 开发
 
 * [大数据](kai-fa/da-shu-ju/README.md)
+  * [Dl4j](kai-fa/da-shu-ju/dl4j.md)
+  * [Phoenix](kai-fa/da-shu-ju/phoenix.md)
   * [Flink](kai-fa/da-shu-ju/flink/README.md)
     * [CEP监控下单付款超时通知](kai-fa/da-shu-ju/flink/cep-jian-kong-xia-dan-fu-kuan-chao-shi-tong-zhi.md)
   * [Hbase](kai-fa/da-shu-ju/hbase/README.md)
@@ -39,6 +41,10 @@
     * [case class动态复制](kai-fa/development/scala/case-class-dong-tai-fu-zhi.md)
     * [Slick LocalDateTime互转Timestamp](kai-fa/development/scala/slick-localdatetime-yu-timestamp-zhuan-huan.md)
 * [工具篇](kai-fa/tools/README.md)
+  * [Git](kai-fa/tools/git.md)
+  * [Linux](kai-fa/tools/linux/README.md)
+    * [多线程压缩日志](kai-fa/tools/linux/duo-xian-cheng-ya-suo-ri-zhi.md)
+  * [Selenium](kai-fa/tools/selenium.md)
   * [Gradle](kai-fa/tools/gradle/README.md)
     * [Gradle 打包上传Maven仓库](kai-fa/tools/gradle/gradle-da-bao-shang-chuan-maven-cang-ku.md)
   * [Docker](kai-fa/tools/docker/README.md)
