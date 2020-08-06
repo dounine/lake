@@ -1,5 +1,5 @@
 ---
-description: 本文介绍Phabricator使用Docker方式的安装及配置wget
+description: 本文介绍Phabricator使用Docker方式的安装及配置
 ---
 
 # Phabricator 一键安装及汉化
