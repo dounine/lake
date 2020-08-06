@@ -13,3 +13,7 @@
   * [Bazel](kai-fa/tools/bazel/README.md)
     * [Bazel - 编译加速](kai-fa/tools/bazel/bazel-jia-su.md)
 
+---
+
+* [Phabricator 一键安装及汉化](phabricator-yi-jian-an-zhuang-ji-han-hua.md)
+
