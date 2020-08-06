@@ -17,6 +17,7 @@
     * [HDFS 磁盘重新平衡](kai-fa/da-shu-ju/hadoop/ci-pan-zhong-xin-ping-heng.md)
 * [编程篇](kai-fa/development/README.md)
   * [SpringCloud](kai-fa/development/springcloud/README.md)
+    * [MongoTemplate打印执行语句日志](kai-fa/development/springcloud/mongotemplate-da-yin-zhi-hang-yu-ju-ri-zhi.md)
     * [Fegin获取header异常解决方案](kai-fa/development/springcloud/fegin-huo-qu-header-yi-chang-jie-jue-fang-an.md)
     * [双级缓存](kai-fa/development/springcloud/shuang-ji-huan-cun.md)
   * [PlayFramework](kai-fa/development/playframework/README.md)
