@@ -4,8 +4,6 @@ description: 介绍使用命令的方式一键安装 docker-compose
 
 # docker-compose 安装
 
-## 安装方法
-
 下载docker-compose可执行文件
 
 ```text
