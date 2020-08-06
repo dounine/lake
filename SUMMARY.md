@@ -48,6 +48,7 @@
     * [Slick LocalDateTime互转Timestamp](kai-fa/development/scala/slick-localdatetime-yu-timestamp-zhuan-huan.md)
 * [工具篇](kai-fa/tools/README.md)
   * [Git](kai-fa/tools/git/README.md)
+    * [Webhook 部署自动化](kai-fa/tools/git/webhook-bu-shu-zi-dong-hua.md)
     * [清理Gitlab项目节省空间](kai-fa/tools/git/qing-li-gitlab-xiang-mu-jie-sheng-kong-jian.md)
   * [Linux](kai-fa/tools/linux/README.md)
     * [Centos7 添加开机启动服务](kai-fa/tools/linux/centos7-tian-jia-kai-ji-qi-dong-fu-wu.md)
