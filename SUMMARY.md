@@ -5,7 +5,7 @@
 ## 开发
 
 * [工具](kai-fa/untitled/README.md)
-  * [Bazel 加速](kai-fa/untitled/bazel-jia-su.md)
+  * [Bazel - 编译加速](kai-fa/untitled/bazel-jia-su.md)
 
 ---
 
