@@ -39,6 +39,7 @@
     * [JMX 远程调优](kai-fa/development/java-yu-yan/jmx-yuan-cheng-tiao-you.md)
     * [递归列所有文件](kai-fa/development/java-yu-yan/di-gui-lie-suo-you-wen-jian.md)
   * [Scala 语言](kai-fa/development/scala/README.md)
+    * [Scala比元组还好用的东西](kai-fa/development/scala/scala-bi-yuan-zu-hai-hao-yong-de-dong-xi.md)
     * [Scala-Shell使用外部包方法](kai-fa/development/scala/scalashell-shi-yong-wai-bu-bao-fang-fa.md)
     * [Maven与Java语言混合编译打包](kai-fa/development/scala/maven-yu-java-yu-yan-hun-he-bian-yi-da-bao.md)
     * [case class动态复制](kai-fa/development/scala/case-class-dong-tai-fu-zhi.md)
