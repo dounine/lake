@@ -132,7 +132,7 @@ $ docker exec -ti docker_phabricator_1 bash
 $ bin/config set metamta.default-address admin@example.com
 ```
 
-#### 配置smtp
+### 配置smtp
 
 创建mailers.json文件
 
@@ -170,7 +170,7 @@ Mail sent! You can view details by running this command:
     phabricator/ $ ./bin/mail show-outbound --id 27
 ```
 
-#### https设置
+### https设置
 
 登录容器（同上）
 
