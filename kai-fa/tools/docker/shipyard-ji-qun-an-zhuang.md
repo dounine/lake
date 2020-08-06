@@ -2,7 +2,7 @@
 description: 如何使用`Shipyard`安装一个`docker`的集群，以下为此文安装过程，使用centos7作为测试系统。
 ---
 
-# Shipyard集群安装
+# Shipyard 集群安装
 
 docker 安装可参考官方安装说明 [docker install](https://docs.docker.com/)
 
