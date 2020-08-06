@@ -70,6 +70,7 @@
   * [Gradle](kai-fa/tools/gradle/README.md)
     * [Gradle 打包上传Maven仓库](kai-fa/tools/gradle/gradle-da-bao-shang-chuan-maven-cang-ku.md)
   * [Docker](kai-fa/tools/docker/README.md)
+    * [Docker Elasticsearch可视化Kibana](kai-fa/tools/docker/docker-elasticsearch-ke-shi-hua-kibana.md)
     * [Docker 解决容器时区时间不一致](kai-fa/tools/docker/docker-jie-jue-rong-qi-shi-qu-shi-jian-bu-yi-zhi.md)
     * [Shipyard 集群安装](kai-fa/tools/docker/shipyard-ji-qun-an-zhuang.md)
     * [Phabricator 一键安装及汉化](kai-fa/tools/docker/phabricator-yi-jian-an-zhuang-ji-han-hua.md)
