@@ -3,7 +3,7 @@ description: >-
   如果我们的Mysql服务器性能不咋滴，但是硬盘很够，如何才能做各种复杂的聚合操作？答案就是使用spark的计算能力的，我们可以将mysql数据源接入到spark中。
 ---
 
-# Spark 数据源MySQL
+# Spark 数据源JDBC
 
 ## 查询
 
