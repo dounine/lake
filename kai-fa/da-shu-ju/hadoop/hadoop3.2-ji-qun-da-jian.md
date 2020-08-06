@@ -22,7 +22,7 @@ description: >-
 
 hostname 设置
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 
 主机免密钥登录
 
@@ -36,7 +36,7 @@ hostname 设置
 
 下载 [jdk1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../.gitbook/assets/image%20%2837%29.png)
 
 配置Java环境
 
@@ -78,7 +78,7 @@ yarn-site.xml 配置
 
 mapred-site.xml 配置
 
-![](../../../.gitbook/assets/image%20%2837%29.png)
+![](../../../.gitbook/assets/image%20%2838%29.png)
 
 格式化name文件夹
 
