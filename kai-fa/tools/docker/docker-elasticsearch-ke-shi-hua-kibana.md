@@ -11,7 +11,9 @@ docker --version
 Docker version 18.03.0-ce, build 0520e24
 ```
 
-{% page-ref page="docker-elasticsearch-ke-shi-hua-kibana.md" %}
+依赖docker-compose
+
+{% page-ref page="dockercompose-an-zhuang.md" %}
 
 {% code title="docker-compose.yml" %}
 ```yaml
