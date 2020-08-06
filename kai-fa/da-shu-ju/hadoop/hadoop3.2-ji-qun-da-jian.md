@@ -22,7 +22,7 @@ description: >-
 
 hostname 设置
 
-![](../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
 主机免密钥登录
 
@@ -36,11 +36,11 @@ hostname 设置
 
 下载 [jdk1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-![](../../../.gitbook/assets/image%20%2833%29.png)
+![](../../../.gitbook/assets/image%20%2834%29.png)
 
 配置Java环境
 
-![](../../../.gitbook/assets/image%20%2829%29.png)
+![](../../../.gitbook/assets/image%20%2830%29.png)
 
 环境变量生效
 
@@ -54,7 +54,7 @@ source /etc/profile
 
 环境配置 [hadoop-3.2.0.tar.gz](https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.2.0/hadoop-3.2.0.tar.gz)
 
-![](../../../.gitbook/assets/image%20%2826%29.png)
+![](../../../.gitbook/assets/image%20%2827%29.png)
 
 ### 参数配置
 
@@ -74,11 +74,11 @@ hdfs-site.xml 配置
 
 yarn-site.xml 配置
 
-![](../../../.gitbook/assets/image%20%2827%29.png)
+![](../../../.gitbook/assets/image%20%2828%29.png)
 
 mapred-site.xml 配置
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 
 格式化name文件夹
 
@@ -92,7 +92,7 @@ hadoop namenode -format
 start-all.sh
 ```
 
-![](../../../.gitbook/assets/image%20%2828%29.png)
+![](../../../.gitbook/assets/image%20%2829%29.png)
 
 访问 [http://m1.example.com:8088/cluster](http://m1.example.com:8088/cluster)
 
