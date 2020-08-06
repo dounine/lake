@@ -6,6 +6,7 @@
 
 * [大数据](kai-fa/da-shu-ju/README.md)
   * [Spark](kai-fa/da-shu-ju/spark/README.md)
+    * [Spark 升级版数据源JDBC2](kai-fa/da-shu-ju/spark/spark-sheng-ji-ban-shu-ju-yuan-jdbc2.md)
     * [Spark 数据源MySQL](kai-fa/da-shu-ju/spark/spark-shu-ju-yuan-mysql.md)
     * [Spark SQL查询文件数据](kai-fa/da-shu-ju/spark/spark-sql-cha-xun-wen-jian-shu-ju.md)
     * [Spark 资源动态释放](kai-fa/da-shu-ju/spark/spark-zi-yuan-dong-tai-shi-fang.md)
