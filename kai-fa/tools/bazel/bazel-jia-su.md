@@ -5,7 +5,7 @@ description: >-
 
 # Bazel - 编译加速
 
-## 磁盘式
+## 保存本地磁盘
 
 在用户目录创建一个文件 `~/.bazelrc` 内容如下
 
@@ -17,7 +17,7 @@ $ build --disk_cache=/path/cache
  缓存内容不会自动删除、磁盘会越来越大!!!
 {% endhint %}
 
-## 网络方式
+## 保存网络
 
 需要依赖`docker`环境
 
